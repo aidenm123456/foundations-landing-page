@@ -72,3 +72,54 @@ body {
 }
 
 /* Hero container ends here*/
+
+
+
+.body1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+.body1-top {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.body1-top p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.body1-bottom {
+    display: flex;
+    gap: 50px;
+}
+
+.bottom-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 145px;
+}
+
+.bottom-div p {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 8px;
+}
+
+.card {
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    
+    height: 145px;
+    width: 145px;
+}
