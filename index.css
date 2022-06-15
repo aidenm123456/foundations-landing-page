@@ -74,6 +74,7 @@ body {
 /* Hero container ends here*/
 
 
+/* Body1 container starts here  */
 
 .body1-container {
     display: flex;
@@ -98,6 +99,7 @@ body {
 .body1-bottom {
     display: flex;
     gap: 50px;
+    margin-bottom: 70px;
 }
 
 .bottom-div {
@@ -123,3 +125,107 @@ body {
     height: 145px;
     width: 145px;
 }
+
+/* Body1 container ends here  */
+
+
+/* Body2 container starts here */
+
+.body2-container {
+    background-color: #E5E7EB;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    margin: 0;
+}
+
+.body2-quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.body2-author p {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Body2 container ends here */
+
+
+/* Body3 container starts here */
+
+.body3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.body3-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.body3-div-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12%;
+}
+
+.body3-container h3{
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.body3-container p {
+    margin: 0;
+    font-size: 15px;
+    color: #F9FAF8;
+}
+
+.body3-container button {
+    border:none; 
+    border: 2px solid;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Body3 container ends here */
+
+
+/* Footer container starts here */
+
+.footer-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-container p {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+/* Footer container ends here */
